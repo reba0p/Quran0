@@ -1,0 +1,121 @@
+{
+    "HomePageMetaData": {
+      "title": "قورئان",
+      "description": "بەرنامەی پەیامی قورئان"
+    },
+    "General": {
+      "success": "سەرکەوتوو!",
+      "fail": "شکستخوارد!",
+      "noData": "هیچ زانیاری نییە!",
+      "searchFor": "بگەڕێ بۆ \"{text}...\""
+    },
+    "Theme": {
+      "dark": "تاریک",
+      "light": "ڕووناک",
+      "system": "سیستەم"
+    },
+    "MainLayout": {
+      "Header": {
+        "title": "قورئان",
+        "search": "گەڕان.."
+      },
+      "Navbar": {
+        "home": "سەرەکی",
+        "favorites": "دڵخوازەکان",
+        "bookmarks": "نیشانەکان",
+        "settings": "ڕێکخستن",
+        "statistics": "ئامارەکان",
+        "signOut": "چوونە دەرەوە"
+      }
+    },
+    "Components": {
+      "ChapterCard": {
+        "reading": "خوێندن",
+        "learning": "فێربوون",
+        "chapter": "{name}",
+        "versesCount": "{count} ئایەت",
+        "meccan": "مەککی",
+        "medinan": "مەدینی"
+      },
+      "BookmarkedVerseCard": {
+        "bookmarked": "نیشانکراو",
+        "chapter": "{name}",
+        "verseNumber": "ژمارەی ئایەت ({number})"
+      }
+    },
+    "SignInPage": {
+      "title": "چوونەژوور",
+      "description": "ناونیشان و وشەی نهێنی بنووسە بۆ چوونەژوور.",
+      "email": "ئیمەیڵ",
+      "emailPlaceholder": "example@email.com",
+      "password": "وشەی نهێنی",
+      "passwordPlaceholder": "********",
+      "button": "چوونەژوور",
+      "noAccount": "هەژمارت نییە؟",
+      "signUp": "تۆمارکردن"
+    },
+    "SignUpPage": {
+      "title": "تۆمارکردن",
+      "description": "هەژمارێکی نوێ دروست بکە.",
+      "name": "ناو",
+      "namePlaceholder": "rebin sarbaz",
+      "email": "ئیمەیڵ",
+      "emailPlaceholder": "example@email.com",
+      "password": "وشەی نهێنی",
+      "passwordPlaceholder": "********",
+      "confirmPassword": "دڵنیابونەوە لە وشەی نهێنی",
+      "confirmPasswordPlaceholder": "********",
+      "button": "تۆمارکردن",
+      "haveAccount": "هەژمارت هەیە؟",
+      "signIn": "چوونەژوور"
+    },
+    "HomePage": {
+      "title": "سڵاو جیهان!"
+    },
+    "ChapterPage": {
+      "sidebarSettings": {
+        "title": "ڕێکخستن",
+        "readingSettings": "ڕێکخستنی خوێندن",
+        "audioSettings": "ڕێکخستنی دەنگ",
+        "appearance": "ڕووکاری",
+        "reader": "خوێنەر",
+        "fontSize": "قەبارەی دەق",
+        "zoomIn": "گەورەکردن",
+        "zoomOut": "بچووککردن",
+        "ReaderSelectPlaceHolder": "خوێنەر هەڵبژێرە",
+        "curVerse": "{chapter} - ئایەت ({verse})",
+        "Readers": {
+          "Basit": "عبدالباسط (مجەوەد)",
+          "Dussary": "یاسر دەوسەری",
+          "Muaiqly": "ماهر مەعیکلی",
+          "Minshawy": "منشاوی (مرتەل)",
+          "Hudhaify": "حذیفی",
+          "Husary": "حُصەری (مجەوەد)",
+          "ِAyyoub": "محەمەد ئەیوب",
+          "Ajamy": "ئەحمەد ئەلعەجەمی"
+        },
+        "Actions": {
+          "play": "پەخش کردن",
+          "exit": "دەرچوون"
+        }
+      }
+    },
+    "StatisticsPage": {
+      "statistics": "ئامارەکان",
+      "monthlyStatistics": "ئاماری مانگانە",
+      "monthlyStatisticsLabel": "لە بەلایەنی کەمەوە ٨ ڕۆژ تەواو بکە بۆ کردنی گرافی مانگانە.",
+      "minutes": "خولەک",
+      "weekReading": "ڕێژەی خوێندن بۆ هەر ڕۆژێک",
+      "monthReading": "ڕێژەی خوێندن لە مانگی ئێستا.",
+      "monthReadingDetails": "ڕێژەی خوێندن لە ماوەی ٣٠ ڕۆژی ڕابردو.",
+      "dayGoal": "ئامانجی خوێندنی ڕۆژانە",
+      "dailyGoalStatus": "{present}% لە ئامانجەکەت گەیشتەوە.",
+      "dayGoalLabel": "ئامانجی ڕۆژانە {goal} خولەکە.",
+      "setGoal": "ئامانجی خوێندنی خۆت دابنێ.",
+      "setGoalLabel": "ئامانجی خوێندنی ڕۆژانە هەڵبژێرە.",
+      "minutesNumber": "{minutes} خولەک",
+      "save": "گۆڕانکاری پاشەکەوت بکە",
+      "editGoal": "دەستکاریکردنی ئامانجی ڕۆژانە"
+    }
+  }
+  

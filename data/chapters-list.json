@@ -1,0 +1,58 @@
+[
+
+  {
+    "id": 1,
+    "totalVerses": 3,
+    "transliterationName": "An-Nasr",
+    "type": "medinan",
+    "name": {
+      "ar": "النصر",
+      "en": "The Divine Support",
+      "ku": "النصر"
+    }
+  },
+  {
+    "id": 2,
+    "totalVerses": 5,
+    "transliterationName": "Al-Masad",
+    "type": "meccan",
+    "name": {
+      "ar": "المسد",
+      "en": "The Palm Fiber",
+      "ku": "المسد"
+    }
+  },
+  {
+    "id": 3,
+    "totalVerses": 4,
+    "transliterationName": "Al-Ikhlas",
+    "type": "meccan",
+    "name": {
+      "ar": "الإخلاص",
+      "en": "The Sincerity",
+      "ku": "الإخلاص"
+    }
+  },
+  {
+    "id": 4,
+    "totalVerses": 5,
+    "transliterationName": "Al-Falaq",
+    "type": "meccan",
+    "name": {
+      "ar": "الفلق",
+      "en": "The Daybreak",
+      "ku": "الفلق"
+    }
+  },
+  {
+    "id": 5,
+    "totalVerses": 6,
+    "transliterationName": "An-Nas",
+    "type": "meccan",
+    "name": {
+      "ar": "الناس",
+      "en": "Mankind",
+      "ku": "الناس"
+    }
+  }
+]
