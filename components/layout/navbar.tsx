@@ -4,14 +4,11 @@ import { AiFillHeart, AiFillPieChart, AiOutlineHeart, AiOutlinePieChart } from "
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
-import SignOutBtn from "@/client/auth/components/sign-out-btn";
 import { useTranslations } from "next-intl";
 
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import { useSession } from "@/hooks/use-session";
 
 export default function Navbar() {
-  const { session } = useSession();
   const t = useTranslations("MainLayout.Navbar");
   const navItems = [
     {
@@ -64,18 +61,6 @@ export default function Navbar() {
               </Tooltip>
             );
           })}
-        </div>
-        <div className="md:flex items-center md:flex-col flex-row gap-3 hidden">
-          {session && (
-            <Tooltip key={"signOut"}>
-              <TooltipTrigger asChild>
-                <SignOutBtn>
-                  <IoExitOutline />
-                </SignOutBtn>
-              </TooltipTrigger>
-              <TooltipContent>{t("signOut")}</TooltipContent>
-            </Tooltip>
-          )}
         </div>
       </TooltipProvider>
     </nav>

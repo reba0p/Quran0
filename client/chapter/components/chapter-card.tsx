@@ -6,7 +6,7 @@ import { Locale } from "@/i18n.config";
 
 type props = {
   id: number;
-  name: string;
+  name: string | undefined;
   versesCount: number;
   transliterationName: string;
   type: "meccan" | "medinan";
@@ -23,8 +23,8 @@ export default function ChapterCard({ id, name, transliterationName, type, verse
         <FavoriteChapter chapterId={id} />
       </div>
       <Link href={`/chapter/${id}/reading`}>
-        <h2 className="text-2xl font-semibold">{locale === "ar" ? t("chapter", { name }) : transliterationName}</h2>
-        {locale !== "ar" && <h3 className="text-foreground/80 font-semibold text-sm">{t("chapter", { name })}</h3>}
+        <h2 className="text-2xl font-semibold">{locale === "ar" || locale === "ku" ? t("chapter", { name }) : transliterationName}</h2>
+        {locale !== "ar" && locale !== "ku" && <h3 className="text-foreground/80 font-semibold text-sm">{t("chapter", { name })}</h3>}
         <div className="flex items-center text-muted-foreground text-sm">
           <p>{t("versesCount", { count: versesCount })}</p>
           <Dot />

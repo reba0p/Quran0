@@ -2,7 +2,6 @@
 import { setUserLocale } from "@/lib/locale";
 import { useTransition } from "react";
 import { MdLanguage } from "react-icons/md";
-
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Locale } from "@/i18n.config";
 import { useLocale } from "next-intl";
@@ -26,7 +25,7 @@ export default function SelectLanguage() {
       <SelectContent className="text-center">
       <SelectItem value="en">English</SelectItem>
         <SelectItem value="ar">العربية</SelectItem>
-        <SelectItem value="ku">کوردی</SelectItem>
+        <SelectItem className="font-kurdish" value="ku">کوردی</SelectItem>
       </SelectContent>
     </Select>
   );

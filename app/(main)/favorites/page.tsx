@@ -22,7 +22,7 @@ export default function FavoritesPage() {
   if (favoriteChaptersQuery.isError) return <ErrorCard />;
 
   const chapters = CHAPTERS_LIST.filter((chapter) => favoriteChaptersQuery.data.some(({ chapterId }) => chapterId === chapter.id));
-  const searchFilterChapters = chapters.filter((chapter) => chapter.name["ar"].includes(search) || chapter.name[locale].toLocaleLowerCase().includes(search) || chapter.transliterationName.toLocaleLowerCase().includes(search));
+  const searchFilterChapters = chapters.filter((chapter) => chapter.name["ar"].includes(search) || chapter.name["en"].toLocaleLowerCase().includes(search) || chapter.transliterationName.toLocaleLowerCase().includes(search));
   if (searchFilterChapters.length === 0) return <NoData />;
 
   return (

@@ -1,5 +1,4 @@
 "use client";
-import BookmarkAction from "./bookmark-action";
 import ShareAction from "./share-action";
 import PlayAudioAction from "./play-audio-action";
 import CopyLinkAction from "./copy-link-action";
@@ -18,7 +17,6 @@ export default function AllVerseActions({ className, chapterId, verseId, totalVe
   return (
     <div className={className}>
       <PlayAudioAction totalVerses={totalVerses} chapterId={chapterId} verseId={verseId} />
-      <BookmarkAction chapterId={chapterId} verseId={verseId} />
       <TafseerAction chapterId={chapterId} verseId={verseId} />
       <ShareAction chapterId={chapterId} verseId={verseId} />
       <CopyLinkAction chapterId={chapterId} verseId={verseId} />

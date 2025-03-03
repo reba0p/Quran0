@@ -32,14 +32,14 @@
       "ChapterCard": {
         "reading": "خوێندن",
         "learning": "فێربوون",
-        "chapter": "{name}",
+        "chapter": "سورة {name}",
         "versesCount": "{count} ئایەت",
-        "meccan": "مەککی",
-        "medinan": "مەدینی"
+        "meccan": "مەککە",
+        "medinan": "مەدینە"
       },
       "BookmarkedVerseCard": {
         "bookmarked": "نیشانکراو",
-        "chapter": "{name}",
+        "chapter": "سورة {name}",
         "verseNumber": "ژمارەی ئایەت ({number})"
       }
     },

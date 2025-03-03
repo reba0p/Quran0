@@ -24,7 +24,7 @@ export default function useGetAudioInfo({ chapterId, readerId, verseId }: props)
   // audio title
   const readerName = AVAILABLE_READERS.find((reader) => reader.id === readerId)?.name;
   const chapter = CHAPTER_LIST.find((chapter) => chapter.id === chapterId)!;
-  const chapterName = locale === "ar" ? `${chapter.name[locale]}` : `${chapter.transliterationName} (${chapter.name[locale]})`;
+  const chapterName = locale === "ar" || locale === "ku" ? `${chapter.name[locale]}` : `${chapter.transliterationName} (${chapter.name[locale]})`;
   const audioTitle = `${t("curVerse", { chapter: chapterName, verse: verseId })} . ${readerName && t(`Readers.${readerName}`)}`;
 
   // audio link

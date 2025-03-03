@@ -1,7 +1,1204 @@
 [
-
   {
     "id": 1,
+    "totalVerses": 7,
+    "transliterationName": "Al-Fatihah",
+    "type": "meccan",
+    "name": {
+      "ar": "الفاتحة",
+      "ku": "الفاتحة",
+      "en": "The Opener"
+    }
+  },
+  {
+    "id": 2,
+    "totalVerses": 286,
+    "transliterationName": "Al-Baqarah",
+    "type": "medinan",
+    "name": {
+      "ar": "البقرة",
+      "ku": "البقرة",
+      "en": "The Cow"
+    }
+  },
+  {
+    "id": 3,
+    "totalVerses": 200,
+    "transliterationName": "Ali 'Imran",
+    "type": "medinan",
+    "name": {
+      "ar": "آل عمران",
+      "ku": "آل عمران",
+      "en": "Family of Imran"
+    }
+  },
+  {
+    "id": 4,
+    "totalVerses": 176,
+    "transliterationName": "An-Nisa",
+    "type": "medinan",
+    "name": {
+      "ar": "النساء",
+      "ku": "النساء",
+      "en": "The Women"
+    }
+  },
+  {
+    "id": 5,
+    "totalVerses": 120,
+    "transliterationName": "Al-Ma'idah",
+    "type": "medinan",
+    "name": {
+      "ar": "المائدة",
+      "ku": "المائدة",
+      "en": "The Table Spread"
+    }
+  },
+  {
+    "id": 6,
+    "totalVerses": 165,
+    "transliterationName": "Al-An'am",
+    "type": "meccan",
+    "name": {
+      "ar": "الأنعام",
+      "ku": "الأنعام",
+      "en": "The Cattle"
+    }
+  },
+  {
+    "id": 7,
+    "totalVerses": 206,
+    "transliterationName": "Al-A'raf",
+    "type": "meccan",
+    "name": {
+      "ar": "الأعراف",
+      "ku": "الأعراف",
+      "en": "The Heights"
+    }
+  },
+  {
+    "id": 8,
+    "totalVerses": 75,
+    "transliterationName": "Al-Anfal",
+    "type": "medinan",
+    "name": {
+      "ar": "الأنفال",
+      "ku": "الأنفال",
+      "en": "The Spoils of War"
+    }
+  },
+  {
+    "id": 9,
+    "totalVerses": 129,
+    "transliterationName": "At-Tawbah",
+    "type": "medinan",
+    "name": {
+      "ar": "التوبة",
+      "ku": "التوبة",
+      "en": "The Repentance"
+    }
+  },
+  {
+    "id": 10,
+    "totalVerses": 109,
+    "transliterationName": "Yunus",
+    "type": "meccan",
+    "name": {
+      "ar": "يونس",
+      "ku": "يونس",
+      "en": "Jonah"
+    }
+  },
+  {
+    "id": 11,
+    "totalVerses": 123,
+    "transliterationName": "Hud",
+    "type": "meccan",
+    "name": {
+      "ar": "هود",
+      "ku": "هود",
+      "en": "Hud"
+    }
+  },
+  {
+    "id": 12,
+    "totalVerses": 111,
+    "transliterationName": "Yusuf",
+    "type": "meccan",
+    "name": {
+      "ar": "يوسف",
+      "ku": "يوسف",
+      "en": "Joseph"
+    }
+  },
+  {
+    "id": 13,
+    "totalVerses": 43,
+    "transliterationName": "Ar-Ra'd",
+    "type": "medinan",
+    "name": {
+      "ar": "الرعد",
+      "ku": "الرعد",
+      "en": "The Thunder"
+    }
+  },
+  {
+    "id": 14,
+    "totalVerses": 52,
+    "transliterationName": "Ibrahim",
+    "type": "meccan",
+    "name": {
+      "ar": "ابراهيم",
+      "ku": "ابراهيم",
+      "en": "Abraham"
+    }
+  },
+  {
+    "id": 15,
+    "totalVerses": 99,
+    "transliterationName": "Al-Hijr",
+    "type": "meccan",
+    "name": {
+      "ar": "الحجر",
+      "ku": "الحجر",
+      "en": "The Rocky Tract"
+    }
+  },
+  {
+    "id": 16,
+    "totalVerses": 128,
+    "transliterationName": "An-Nahl",
+    "type": "meccan",
+    "name": {
+      "ar": "النحل",
+      "ku": "النحل",
+      "en": "The Bee"
+    }
+  },
+  {
+    "id": 17,
+    "totalVerses": 111,
+    "transliterationName": "Al-Isra",
+    "type": "meccan",
+    "name": {
+      "ar": "الإسراء",
+      "ku": "الإسراء",
+      "en": "The Night Journey"
+    }
+  },
+  {
+    "id": 18,
+    "totalVerses": 110,
+    "transliterationName": "Al-Kahf",
+    "type": "meccan",
+    "name": {
+      "ar": "الكهف",
+      "ku": "الكهف",
+      "en": "The Cave"
+    }
+  },
+  {
+    "id": 19,
+    "totalVerses": 98,
+    "transliterationName": "Maryam",
+    "type": "meccan",
+    "name": {
+      "ar": "مريم",
+      "ku": "مريم",
+      "en": "Mary"
+    }
+  },
+  {
+    "id": 20,
+    "totalVerses": 135,
+    "transliterationName": "Taha",
+    "type": "meccan",
+    "name": {
+      "ar": "طه",
+      "ku": "طه",
+      "en": "Ta-Ha"
+    }
+  },
+  {
+    "id": 21,
+    "totalVerses": 112,
+    "transliterationName": "Al-Anbya",
+    "type": "meccan",
+    "name": {
+      "ar": "الأنبياء",
+      "ku": "الأنبياء",
+      "en": "The Prophets"
+    }
+  },
+  {
+    "id": 22,
+    "totalVerses": 78,
+    "transliterationName": "Al-Hajj",
+    "type": "medinan",
+    "name": {
+      "ar": "الحج",
+      "ku": "الحج",
+      "en": "The Pilgrimage"
+    }
+  },
+  {
+    "id": 23,
+    "totalVerses": 118,
+    "transliterationName": "Al-Mu'minun",
+    "type": "meccan",
+    "name": {
+      "ar": "المؤمنون",
+      "ku": "المؤمنون",
+      "en": "The Believers"
+    }
+  },
+  {
+    "id": 24,
+    "totalVerses": 64,
+    "transliterationName": "An-Nur",
+    "type": "medinan",
+    "name": {
+      "ar": "النور",
+      "ku": "النور",
+      "en": "The Light"
+    }
+  },
+  {
+    "id": 25,
+    "totalVerses": 77,
+    "transliterationName": "Al-Furqan",
+    "type": "meccan",
+    "name": {
+      "ar": "الفرقان",
+      "ku": "الفرقان",
+      "en": "The Criterion"
+    }
+  },
+  {
+    "id": 26,
+    "totalVerses": 227,
+    "transliterationName": "Ash-Shu'ara",
+    "type": "meccan",
+    "name": {
+      "ar": "الشعراء",
+      "ku": "الشعراء",
+      "en": "The Poets"
+    }
+  },
+  {
+    "id": 27,
+    "totalVerses": 93,
+    "transliterationName": "An-Naml",
+    "type": "meccan",
+    "name": {
+      "ar": "النمل",
+      "ku": "النمل",
+      "en": "The Ant"
+    }
+  },
+  {
+    "id": 28,
+    "totalVerses": 88,
+    "transliterationName": "Al-Qasas",
+    "type": "meccan",
+    "name": {
+      "ar": "القصص",
+      "ku": "القصص",
+      "en": "The Stories"
+    }
+  },
+  {
+    "id": 29,
+    "totalVerses": 69,
+    "transliterationName": "Al-'Ankabut",
+    "type": "meccan",
+    "name": {
+      "ar": "العنكبوت",
+      "ku": "العنكبوت",
+      "en": "The Spider"
+    }
+  },
+  {
+    "id": 30,
+    "totalVerses": 60,
+    "transliterationName": "Ar-Rum",
+    "type": "meccan",
+    "name": {
+      "ar": "الروم",
+      "ku": "الروم",
+      "en": "The Romans"
+    }
+  },
+  {
+    "id": 31,
+    "totalVerses": 34,
+    "transliterationName": "Luqman",
+    "type": "meccan",
+    "name": {
+      "ar": "لقمان",
+      "ku": "لقمان",
+      "en": "Luqman"
+    }
+  },
+  {
+    "id": 32,
+    "totalVerses": 30,
+    "transliterationName": "As-Sajdah",
+    "type": "meccan",
+    "name": {
+      "ar": "السجدة",
+      "ku": "السجدة",
+      "en": "The Prostration"
+    }
+  },
+  {
+    "id": 33,
+    "totalVerses": 73,
+    "transliterationName": "Al-Ahzab",
+    "type": "medinan",
+    "name": {
+      "ar": "الأحزاب",
+      "ku": "الأحزاب",
+      "en": "The Combined Forces"
+    }
+  },
+  {
+    "id": 34,
+    "totalVerses": 54,
+    "transliterationName": "Saba",
+    "type": "meccan",
+    "name": {
+      "ar": "سبإ",
+      "ku": "سبإ",
+      "en": "Sheba"
+    }
+  },
+  {
+    "id": 35,
+    "totalVerses": 45,
+    "transliterationName": "Fatir",
+    "type": "meccan",
+    "name": {
+      "ar": "فاطر",
+      "ku": "فاطر",
+      "en": "Originator"
+    }
+  },
+  {
+    "id": 36,
+    "totalVerses": 83,
+    "transliterationName": "Ya-Sin",
+    "type": "meccan",
+    "name": {
+      "ar": "يس",
+      "ku": "يس",
+      "en": "Ya Sin"
+    }
+  },
+  {
+    "id": 37,
+    "totalVerses": 182,
+    "transliterationName": "As-Saffat",
+    "type": "meccan",
+    "name": {
+      "ar": "الصافات",
+      "ku": "الصافات",
+      "en": "Those who set the Ranks"
+    }
+  },
+  {
+    "id": 38,
+    "totalVerses": 88,
+    "transliterationName": "Sad",
+    "type": "meccan",
+    "name": {
+      "ar": "ص",
+      "ku": "ص",
+      "en": "The Letter \"Saad\""
+    }
+  },
+  {
+    "id": 39,
+    "totalVerses": 75,
+    "transliterationName": "Az-Zumar",
+    "type": "meccan",
+    "name": {
+      "ar": "الزمر",
+      "ku": "الزمر",
+      "en": "The Troops"
+    }
+  },
+  {
+    "id": 40,
+    "totalVerses": 85,
+    "transliterationName": "Ghafir",
+    "type": "meccan",
+    "name": {
+      "ar": "غافر",
+      "ku": "غافر",
+      "en": "The Forgiver"
+    }
+  },
+  {
+    "id": 41,
+    "totalVerses": 54,
+    "transliterationName": "Fussilat",
+    "type": "meccan",
+    "name": {
+      "ar": "فصلت",
+      "ku": "فصلت",
+      "en": "Explained in Detail"
+    }
+  },
+  {
+    "id": 42,
+    "totalVerses": 53,
+    "transliterationName": "Ash-Shuraa",
+    "type": "meccan",
+    "name": {
+      "ar": "الشورى",
+      "ku": "الشورى",
+      "en": "The Consultation"
+    }
+  },
+  {
+    "id": 43,
+    "totalVerses": 89,
+    "transliterationName": "Az-Zukhruf",
+    "type": "meccan",
+    "name": {
+      "ar": "الزخرف",
+      "ku": "الزخرف",
+      "en": "The Ornaments of Gold"
+    }
+  },
+  {
+    "id": 44,
+    "totalVerses": 59,
+    "transliterationName": "Ad-Dukhan",
+    "type": "meccan",
+    "name": {
+      "ar": "الدخان",
+      "ku": "الدخان",
+      "en": "The Smoke"
+    }
+  },
+  {
+    "id": 45,
+    "totalVerses": 37,
+    "transliterationName": "Al-Jathiyah",
+    "type": "meccan",
+    "name": {
+      "ar": "الجاثية",
+      "ku": "الجاثية",
+      "en": "The Crouching"
+    }
+  },
+  {
+    "id": 46,
+    "totalVerses": 35,
+    "transliterationName": "Al-Ahqaf",
+    "type": "meccan",
+    "name": {
+      "ar": "الأحقاف",
+      "ku": "الأحقاف",
+      "en": "The Wind-Curved Sandhills"
+    }
+  },
+  {
+    "id": 47,
+    "totalVerses": 38,
+    "transliterationName": "Muhammad",
+    "type": "medinan",
+    "name": {
+      "ar": "محمد",
+      "ku": "محمد",
+      "en": "Muhammad"
+    }
+  },
+  {
+    "id": 48,
+    "totalVerses": 29,
+    "transliterationName": "Al-Fath",
+    "type": "medinan",
+    "name": {
+      "ar": "الفتح",
+      "en": "The Victory"
+    }
+  },
+  {
+    "id": 49,
+    "totalVerses": 18,
+    "transliterationName": "Al-Hujurat",
+    "type": "medinan",
+    "name": {
+      "ar": "الحجرات",
+      "ku": "الحجرات",
+      "en": "The Rooms"
+    }
+  },
+  {
+    "id": 50,
+    "totalVerses": 45,
+    "transliterationName": "Qaf",
+    "type": "meccan",
+    "name": {
+      "ar": "ق",
+      "ku": "ق",
+      "en": "The Letter \"Qaf\""
+    }
+  },
+  {
+    "id": 51,
+    "totalVerses": 60,
+    "transliterationName": "Adh-Dhariyat",
+    "type": "meccan",
+    "name": {
+      "ar": "الذاريات",
+      "ku": "الذاريات",
+      "en": "The Winnowing Winds"
+    }
+  },
+  {
+    "id": 52,
+    "totalVerses": 49,
+    "transliterationName": "At-Tur",
+    "type": "meccan",
+    "name": {
+      "ar": "الطور",
+      "ku": "الطور",
+      "en": "The Mount"
+    }
+  },
+  {
+    "id": 53,
+    "totalVerses": 62,
+    "transliterationName": "An-Najm",
+    "type": "meccan",
+    "name": {
+      "ar": "النجم",
+      "ku": "النجم",
+      "en": "The Star"
+    }
+  },
+  {
+    "id": 54,
+    "totalVerses": 55,
+    "transliterationName": "Al-Qamar",
+    "type": "meccan",
+    "name": {
+      "ar": "القمر",
+      "ku": "القمر",
+      "en": "The Moon"
+    }
+  },
+  {
+    "id": 55,
+    "totalVerses": 78,
+    "transliterationName": "Ar-Rahman",
+    "type": "medinan",
+    "name": {
+      "ar": "الرحمن",
+      "ku": "الرحمن",
+      "en": "The Beneficent"
+    }
+  },
+  {
+    "id": 56,
+    "totalVerses": 96,
+    "transliterationName": "Al-Waqi'ah",
+    "type": "meccan",
+    "name": {
+      "ar": "الواقعة",
+      "ku": "الواقعة",
+      "en": "The Inevitable"
+    }
+  },
+  {
+    "id": 57,
+    "totalVerses": 29,
+    "transliterationName": "Al-Hadid",
+    "type": "medinan",
+    "name": {
+      "ar": "الحديد",
+      "ku": "الحديد",
+      "en": "The Iron"
+    }
+  },
+  {
+    "id": 58,
+    "totalVerses": 22,
+    "transliterationName": "Al-Mujadila",
+    "type": "medinan",
+    "name": {
+      "ar": "المجادلة",
+      "ku": "المجادلة",
+      "en": "The Pleading Woman"
+    }
+  },
+  {
+    "id": 59,
+    "totalVerses": 24,
+    "transliterationName": "Al-Hashr",
+    "type": "medinan",
+    "name": {
+      "ar": "الحشر",
+      "ku": "الحشر",
+      "en": "The Exile"
+    }
+  },
+  {
+    "id": 60,
+    "totalVerses": 13,
+    "transliterationName": "Al-Mumtahanah",
+    "type": "medinan",
+    "name": {
+      "ar": "الممتحنة",
+      "ku": "الممتحنة",
+      "en": "She that is to be examined"
+    }
+  },
+  {
+    "id": 61,
+    "totalVerses": 14,
+    "transliterationName": "As-Saf",
+    "type": "medinan",
+    "name": {
+      "ar": "الصف",
+      "ku": "الصف",
+      "en": "The Ranks"
+    }
+  },
+  {
+    "id": 62,
+    "totalVerses": 11,
+    "transliterationName": "Al-Jumu'ah",
+    "type": "medinan",
+    "name": {
+      "ar": "الجمعة",
+      "ku": "الجمعة",
+      "en": "The Congregation, Friday"
+    }
+  },
+  {
+    "id": 63,
+    "totalVerses": 11,
+    "transliterationName": "Al-Munafiqun",
+    "type": "medinan",
+    "name": {
+      "ar": "المنافقون",
+      "ku": "المنافقون",
+      "en": "The Hypocrites"
+    }
+  },
+  {
+    "id": 64,
+    "totalVerses": 18,
+    "transliterationName": "At-Taghabun",
+    "type": "medinan",
+    "name": {
+      "ar": "التغابن",
+      "ku": "التغابن",
+      "en": "The Mutual Disillusion"
+    }
+  },
+  {
+    "id": 65,
+    "totalVerses": 12,
+    "transliterationName": "At-Talaq",
+    "type": "medinan",
+    "name": {
+      "ar": "الطلاق",
+      "ku": "الطلاق",
+      "en": "The Divorce"
+    }
+  },
+  {
+    "id": 66,
+    "totalVerses": 12,
+    "transliterationName": "At-Tahrim",
+    "type": "medinan",
+    "name": {
+      "ar": "التحريم",
+      "ku": "التحريم",
+      "en": "The Prohibition"
+    }
+  },
+  {
+    "id": 67,
+    "totalVerses": 30,
+    "transliterationName": "Al-Mulk",
+    "type": "meccan",
+    "name": {
+      "ar": "الملك",
+      "ku": "الملك",
+      "en": "The Sovereignty"
+    }
+  },
+  {
+    "id": 68,
+    "totalVerses": 52,
+    "transliterationName": "Al-Qalam",
+    "type": "meccan",
+    "name": {
+      "ar": "القلم",
+      "ku": "القلم",
+      "en": "The Pen"
+    }
+  },
+  {
+    "id": 69,
+    "totalVerses": 52,
+    "transliterationName": "Al-Haqqah",
+    "type": "meccan",
+    "name": {
+      "ar": "الحاقة",
+      "ku": "الحاقة",
+      "en": "The Reality"
+    }
+  },
+  {
+    "id": 70,
+    "totalVerses": 44,
+    "transliterationName": "Al-Ma'arij",
+    "type": "meccan",
+    "name": {
+      "ar": "المعارج",
+      "ku": "المعارج",
+      "en": "The Ascending Stairways"
+    }
+  },
+  {
+    "id": 71,
+    "totalVerses": 28,
+    "transliterationName": "Nuh",
+    "type": "meccan",
+    "name": {
+      "ar": "نوح",
+      "ku": "نوح",
+      "en": "Noah"
+    }
+  },
+  {
+    "id": 72,
+    "totalVerses": 28,
+    "transliterationName": "Al-Jinn",
+    "type": "meccan",
+    "name": {
+      "ar": "الجن",
+      "ku": "الجن",
+      "en": "The Jinn"
+    }
+  },
+  {
+    "id": 73,
+    "totalVerses": 20,
+    "transliterationName": "Al-Muzzammil",
+    "type": "meccan",
+    "name": {
+      "ar": "المزمل",
+      "ku": "المزمل",
+      "en": "The Enshrouded One"
+    }
+  },
+  {
+    "id": 74,
+    "totalVerses": 56,
+    "transliterationName": "Al-Muddaththir",
+    "type": "meccan",
+    "name": {
+      "ar": "المدثر",
+      "ku": "المدثر",
+      "en": "The Cloaked One"
+    }
+  },
+  {
+    "id": 75,
+    "totalVerses": 40,
+    "transliterationName": "Al-Qiyamah",
+    "type": "meccan",
+    "name": {
+      "ar": "القيامة",
+      "ku": "القيامة",
+      "en": "The Resurrection"
+    }
+  },
+  {
+    "id": 76,
+    "totalVerses": 31,
+    "transliterationName": "Al-Insan",
+    "type": "medinan",
+    "name": {
+      "ar": "الانسان",
+      "ku": "الانسان",
+      "en": "The Man"
+    }
+  },
+  {
+    "id": 77,
+    "totalVerses": 50,
+    "transliterationName": "Al-Mursalat",
+    "type": "meccan",
+    "name": {
+      "ar": "المرسلات",
+      "ku": "المرسلات",
+      "en": "The Emissaries"
+    }
+  },
+  {
+    "id": 78,
+    "totalVerses": 40,
+    "transliterationName": "An-Naba",
+    "type": "meccan",
+    "name": {
+      "ar": "النبإ",
+      "ku": "النبإ",
+      "en": "The Tidings"
+    }
+  },
+  {
+    "id": 79,
+    "totalVerses": 46,
+    "transliterationName": "An-Nazi'at",
+    "type": "meccan",
+    "name": {
+      "ar": "النازعات",
+      "ku": "النازعات",
+      "en": "Those who drag forth"
+    }
+  },
+  {
+    "id": 80,
+    "totalVerses": 42,
+    "transliterationName": "'Abasa",
+    "type": "meccan",
+    "name": {
+      "ar": "عبس",
+      "ku": "عبس",
+      "en": "He Frowned"
+    }
+  },
+  {
+    "id": 81,
+    "totalVerses": 29,
+    "transliterationName": "At-Takwir",
+    "type": "meccan",
+    "name": {
+      "ar": "التكوير",
+      "ku": "التكوير",
+      "en": "The Overthrowing"
+    }
+  },
+  {
+    "id": 82,
+    "totalVerses": 19,
+    "transliterationName": "Al-Infitar",
+    "type": "meccan",
+    "name": {
+      "ar": "الإنفطار",
+      "ku": "الإنفطار",
+      "en": "The Cleaving"
+    }
+  },
+  {
+    "id": 83,
+    "totalVerses": 36,
+    "transliterationName": "Al-Mutaffifin",
+    "type": "meccan",
+    "name": {
+      "ar": "المطففين",
+      "ku": "المطففين",
+      "en": "The Defrauding"
+    }
+  },
+  {
+    "id": 84,
+    "totalVerses": 25,
+    "transliterationName": "Al-Inshiqaq",
+    "type": "meccan",
+    "name": {
+      "ar": "الإنشقاق",
+      "ku": "الإنشقاق",
+      "en": "The Sundering"
+    }
+  },
+  {
+    "id": 85,
+    "totalVerses": 22,
+    "transliterationName": "Al-Buruj",
+    "type": "meccan",
+    "name": {
+      "ar": "البروج",
+      "ku": "البروج",
+      "en": "The Mansions of the Stars"
+    }
+  },
+  {
+    "id": 86,
+    "totalVerses": 17,
+    "transliterationName": "At-Tariq",
+    "type": "meccan",
+    "name": {
+      "ar": "الطارق",
+      "ku": "الطارق",
+      "en": "The Nightcommer"
+    }
+  },
+  {
+    "id": 87,
+    "totalVerses": 19,
+    "transliterationName": "Al-A'la",
+    "type": "meccan",
+    "name": {
+      "ar": "الأعلى",
+      "ku": "الأعلى",
+      "en": "The Most High"
+    }
+  },
+  {
+    "id": 88,
+    "totalVerses": 26,
+    "transliterationName": "Al-Ghashiyah",
+    "type": "meccan",
+    "name": {
+      "ar": "الغاشية",
+      "ku": "الغاشية",
+      "en": "The Overwhelming"
+    }
+  },
+  {
+    "id": 89,
+    "totalVerses": 30,
+    "transliterationName": "Al-Fajr",
+    "type": "meccan",
+    "name": {
+      "ar": "الفجر",
+      "ku": "الفجر",
+      "en": "The Dawn"
+    }
+  },
+  {
+    "id": 90,
+    "totalVerses": 20,
+    "transliterationName": "Al-Balad",
+    "type": "meccan",
+    "name": {
+      "ar": "البلد",
+      "ku": "البلد",
+      "en": "The City"
+    }
+  },
+  {
+    "id": 91,
+    "totalVerses": 15,
+    "transliterationName": "Ash-Shams",
+    "type": "meccan",
+    "name": {
+      "ar": "الشمس",
+      "ku": "الشمس",
+      "en": "The Sun"
+    }
+  },
+  {
+    "id": 92,
+    "totalVerses": 21,
+    "transliterationName": "Al-Layl",
+    "type": "meccan",
+    "name": {
+      "ar": "الليل",
+      "ku": "الليل",
+      "en": "The Night"
+    }
+  },
+  {
+    "id": 93,
+    "totalVerses": 11,
+    "transliterationName": "Ad-Duhaa",
+    "type": "meccan",
+    "name": {
+      "ar": "الضحى",
+      "ku": "الضحى",
+      "en": "The Morning Hours"
+    }
+  },
+  {
+    "id": 94,
+    "totalVerses": 8,
+    "transliterationName": "Ash-Sharh",
+    "type": "meccan",
+    "name": {
+      "ar": "الشرح",
+      "ku": "الشرح",
+      "en": "The Relief"
+    }
+  },
+  {
+    "id": 95,
+    "totalVerses": 8,
+    "transliterationName": "At-Tin",
+    "type": "meccan",
+    "name": {
+      "ar": "التين",
+      "ku": "التين",
+      "en": "The Fig"
+    }
+  },
+  {
+    "id": 96,
+    "totalVerses": 19,
+    "transliterationName": "Al-'Alaq",
+    "type": "meccan",
+    "name": {
+      "ar": "العلق",
+      "ku": "العلق",
+      "en": "The Clot"
+    }
+  },
+  {
+    "id": 97,
+    "totalVerses": 5,
+    "transliterationName": "Al-Qadr",
+    "type": "meccan",
+    "name": {
+      "ar": "القدر",
+      "ku": "القدر",
+      "en": "The Power"
+    }
+  },
+  {
+    "id": 98,
+    "totalVerses": 8,
+    "transliterationName": "Al-Bayyinah",
+    "type": "medinan",
+    "name": {
+      "ar": "البينة",
+      "ku": "البينة",
+      "en": "The Clear Proof"
+    }
+  },
+  {
+    "id": 99,
+    "totalVerses": 8,
+    "transliterationName": "Az-Zalzalah",
+    "type": "medinan",
+    "name": {
+      "ar": "الزلزلة",
+      "ku": "الزلزلة",
+      "en": "The Earthquake"
+    }
+  },
+  {
+    "id": 100,
+    "totalVerses": 11,
+    "transliterationName": "Al-'Adiyat",
+    "type": "meccan",
+    "name": {
+      "ar": "العاديات",
+      "ku": "العاديات",
+      "en": "The Courser"
+    }
+  },
+  {
+    "id": 101,
+    "totalVerses": 11,
+    "transliterationName": "Al-Qari'ah",
+    "type": "meccan",
+    "name": {
+      "ar": "القارعة",
+      "ku": "القارعة",
+      "en": "The Calamity"
+    }
+  },
+  {
+    "id": 102,
+    "totalVerses": 8,
+    "transliterationName": "At-Takathur",
+    "type": "meccan",
+    "name": {
+      "ar": "التكاثر",
+      "ku": "التكاثر",
+      "en": "The Rivalry in world increase"
+    }
+  },
+  {
+    "id": 103,
+    "totalVerses": 3,
+    "transliterationName": "Al-'Asr",
+    "type": "meccan",
+    "name": {
+      "ar": "العصر",
+      "ku": "العصر",
+      "en": "The Declining Day"
+    }
+  },
+  {
+    "id": 104,
+    "totalVerses": 9,
+    "transliterationName": "Al-Humazah",
+    "type": "meccan",
+    "name": {
+      "ar": "الهمزة",
+      "ku": "الهمزة",
+      "en": "The Traducer"
+    }
+  },
+  {
+    "id": 105,
+    "totalVerses": 5,
+    "transliterationName": "Al-Fil",
+    "type": "meccan",
+    "name": {
+      "ar": "الفيل",
+      "ku": "الفيل",
+      "en": "The Elephant"
+    }
+  },
+  {
+    "id": 106,
+    "totalVerses": 4,
+    "transliterationName": "Quraysh",
+    "type": "meccan",
+    "name": {
+      "ar": "قريش",
+      "ku": "قريش",
+      "en": "Quraysh"
+    }
+  },
+  {
+    "id": 107,
+    "totalVerses": 7,
+    "transliterationName": "Al-Ma'un",
+    "type": "meccan",
+    "name": {
+      "ar": "الماعون",
+      "ku": "الماعون",
+      "en": "The Small kindnesses"
+    }
+  },
+  {
+    "id": 108,
+    "totalVerses": 3,
+    "transliterationName": "Al-Kawthar",
+    "type": "meccan",
+    "name": {
+      "ar": "الكوثر",
+      "ku": "الكوثر",
+      "en": "The Abundance"
+    }
+  },
+  {
+    "id": 109,
+    "totalVerses": 6,
+    "transliterationName": "Al-Kafirun",
+    "type": "meccan",
+    "name": {
+      "ar": "الكافرون",
+      "ku": "الكافرون",
+      "en": "The Disbelievers"
+    }
+  },
+  {
+    "id": 110,
     "totalVerses": 3,
     "transliterationName": "An-Nasr",
     "type": "medinan",
@@ -12,7 +1209,7 @@
     }
   },
   {
-    "id": 2,
+    "id": 111,
     "totalVerses": 5,
     "transliterationName": "Al-Masad",
     "type": "meccan",
@@ -23,7 +1220,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 112,
     "totalVerses": 4,
     "transliterationName": "Al-Ikhlas",
     "type": "meccan",
@@ -34,7 +1231,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 113,
     "totalVerses": 5,
     "transliterationName": "Al-Falaq",
     "type": "meccan",
@@ -45,7 +1242,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 114,
     "totalVerses": 6,
     "transliterationName": "An-Nas",
     "type": "meccan",
