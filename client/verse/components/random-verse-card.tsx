@@ -60,7 +60,7 @@ export default function RandomVerseCard() {
       {locale === "ku" && translation ? (
         <p className="text-xs md:text-sm text-slate-300 text-center">{translation}</p>
       ) : (
-        <p className="text-xs md:text-sm text-slate-200 text-center">{verse.translations?.["en"]}</p>
+        <p className="text-xs md:text-sm text-slate-200 text-center">{verse.translations?.[local]}</p>
       )}
 
       {locale === "ar" || locale === "ku" ? (
