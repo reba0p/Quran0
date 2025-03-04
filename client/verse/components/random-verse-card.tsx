@@ -58,7 +58,7 @@ export default function RandomVerseCard() {
         <span className="font-normal text-3xl mx-1">{convertToArabicNumbers(`${verse.number}`)}</span>
       </h2>
       {locale === "ku" && translation ? (
-        <p className="text-xs md:text-sm text-slate-300 text-center">{translation}</p>
+        <p className="text-xs md:text-sm text-slate-50 text-center">{translation}</p>
       ) : locale !== "ar" && (
         <p className="text-xs md:text-sm text-slate-200 text-center">{verse.translations?.["en"]}</p>
       )}
