@@ -18,6 +18,14 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: t("title"),
     description: t("description"),
+    manifest: "/manifest.json",
+    keywords: ["nextjs", "next14", "pwa", "next-pwa"],
+    viewport:
+      "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover",
+    icons: [
+      { rel: "apple-touch-icon", url: "icon512_maskable.png" },
+      { rel: "icon", url: "icon512_maskable.png" },
+    ],
   };
 }
 
