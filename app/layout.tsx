@@ -19,7 +19,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: t("title"),
     description: t("description"),
     manifest: "/manifest.json",
-    keywords: ["nextjs", "next14", "pwa", "next-pwa"],
+    keywords: ["quran", "verse", "surah", "ramadan", "quran karim", "islam", "قورئان", "القرآن الكريم", "surat", "ayat", "ramazan"],
     viewport:
       "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover",
     icons: [
