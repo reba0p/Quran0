@@ -33,13 +33,15 @@ export default function FavoritesPage() {
   if (searchFilterChapters.length === 0) return <NoData />
 
   return (
-    <div className="grid grid-cols-1 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-5 justify-items-start P m-3">
+    <>
     <div className="flex items-center justify-between mb-4">
         <h1 className="flex items-center gap-2 text-xl font-semibold">
           <div className="h-9 w-1.5 rounded-full bg-primary" />
           {t("favorites")}
         </h1>
       </div>
+    <div className="grid grid-cols-1 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-5 justify-items-start P m-3">
+    
       {!!search && <SearchFor text={search} />}
       {searchFilterChapters.map((chapter) => (
         <ChapterCard
@@ -53,6 +55,7 @@ export default function FavoritesPage() {
         />
       ))}
     </div>
+    </>
   )
 }
 
