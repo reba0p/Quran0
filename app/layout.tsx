@@ -22,10 +22,7 @@ export async function generateMetadata(): Promise<Metadata> {
     keywords: ["quran", "verse", "surah", "ramadan", "quran karim", "islam", "قورئان", "القرآن الكريم", "surat", "ayat", "ramazan"],
     viewport:
       "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover",
-    icons: [
-      { rel: "apple-touch-icon", url: "icon512_maskable.png" },
-      { rel: "icon", url: "icon512_maskable.png" },
-    ],
+   
   };
 }
 
