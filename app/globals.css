@@ -87,3 +87,10 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'DS-Digital';
+  font-style: normal;
+  font-weight: normal;
+  src: local('DS-Digital'), url('https://fonts.cdnfonts.com/s/15049/DS-DIGI.woff') format('woff');
+}

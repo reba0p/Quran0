@@ -1,5 +1,5 @@
 "use client";
-import { IoBook, IoBookmark, IoBookmarkOutline, IoBookOutline, IoExitOutline } from "react-icons/io5";
+import { IoBook, IoBookmark, IoBookmarkOutline, IoBookOutline, IoFingerPrint } from "react-icons/io5";
 import { AiFillHeart, AiFillPieChart, AiOutlineHeart, AiOutlinePieChart } from "react-icons/ai";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
@@ -34,10 +34,10 @@ export default function Navbar() {
     },
     {
       id: 3,
-      name: t("statistics"),
-      path: "/statistics",
-      icon: AiOutlinePieChart,
-      activeIcon: AiFillPieChart,
+      name: t("rosary"),
+      path: "/rosary",
+      icon: IoFingerPrint,
+      activeIcon: IoFingerPrint,
     },
   ];
 

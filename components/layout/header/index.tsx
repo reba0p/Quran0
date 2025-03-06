@@ -13,6 +13,9 @@ export default async function Header() {
 
   return (
     <header className="flex items-center sm:justify-between gap-3 p-6 flex-shrink-0 h-[75px] shadow-[-20px_4px_20px_-0px_rgba(0,0,0,0.3)] shadow-muted ltr:shadow-[50px_6px_20px_-0px_rgba(0,0,0,0.3)] ltr:shadow-muted z-10">
+      <Link href="/">
+        <h1 className="text-2xl font-extrabold md:block hidden">{t("title")}</h1>
+      </Link>
       
       <Link className="md:hidden block ltr:mr-auto rtl:ml-auto sm:mr-0" href="/">
         <Logo />

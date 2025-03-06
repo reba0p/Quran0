@@ -64,6 +64,7 @@ const config = {
         },
       },
       fontFamily: {
+        Digital: ['DS-Digital', 'sans-serif'],
         kurdish: ['kurdish-font', 'sans-serif'],
       },
       animation: {

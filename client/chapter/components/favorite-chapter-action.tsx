@@ -1,34 +1,48 @@
-"use client";
+"use server"
 
-import { type MouseEvent, useState } from "react";
-import { Heart, HeartOff } from "lucide-react";
-import { cn } from "@/lib/utils";
-import useToggleFavoriteChapter from "../api/use-toggle-favorite-chapter";
-import useGetFavoriteChaptersIds from "../api/use-get-favorite-chapters-ids";
-import Spinner from "@/components/spinner";
+import { revalidatePath } from "next/cache"
+import { cookies } from "next/headers"
 
-type props = {
-  chapterId: number;
-};
+/**
+ * Server action to toggle a chapter's favorite status
+ * This implementation uses cookies to store favorites
+ */
+export async function toggleFavoriteChapter(chapterId: number) {
+  try {
+    // Get current favorites from cookies
+    const cookieStore = cookies()
+    const favoritesStr = cookieStore.get("favoriteChapters")?.value || "[]"
+    let favorites: number[] = []
 
-export default function FavoriteChapter({ chapterId }: props) {
-  const favoriteChapterMutation = useToggleFavoriteChapter();
-  const favoriteChaptersQuery = useGetFavoriteChaptersIds();
+    try {
+      favorites = JSON.parse(favoritesStr)
+    } catch (e) {
+      // If parsing fails, start with empty array
+      favorites = []
+    }
 
+    // Toggle favorite status
+    if (favorites.includes(chapterId)) {
+      favorites = favorites.filter((id) => id !== chapterId)
+    } else {
+      favorites.push(chapterId)
+    }
 
+    // Save updated favorites to cookies
+    cookieStore.set("favoriteChapters", JSON.stringify(favorites), {
+      path: "/",
+      maxAge: 60 * 60 * 24 * 365, // 1 year
+      httpOnly: true,
+      sameSite: "strict",
+    })
 
-  if (favoriteChaptersQuery.isLoading || favoriteChaptersQuery.isPending) return <Spinner />;
-  if (favoriteChaptersQuery.isError) return <HeartOff className="text-muted-foreground cursor-not-allowed" />;
+    // Revalidate the favorites page to show updated data
+    revalidatePath("/favorites")
 
-  const isFavorite = favoriteChaptersQuery.data.some((chapter) => chapterId === chapter);
-
-  const toggleFavorite = () => {
-    favoriteChapterMutation.mutate({ chapterId });
-  };
-
-  return (
-    <button disabled={favoriteChapterMutation.isPending} onClick={toggleFavorite}>
-      <Heart className={cn("text-muted-foreground cursor-pointer", isFavorite && "fill-rose-500 text-rose-500")} />
-    </button>
-  );
+    return { success: true }
+  } catch (error) {
+    console.error("Error toggling favorite:", error)
+    throw error
+  }
 }
+
