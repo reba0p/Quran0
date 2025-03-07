@@ -65,9 +65,11 @@
   }
   html {
     @apply h-full;
+    font-family: "kurdish-font", sans-serif;
   }
   body {
     @apply bg-background text-foreground h-full;
+    font-family: "kurdish-font", sans-serif;
   }
 }
 
