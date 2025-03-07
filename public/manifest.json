@@ -4,7 +4,7 @@
     "icons": [
         {
             "sizes": "192x192",
-            "src": "icon512_maskable.png",
+            "src": "pwa-192x192.png",
             "type": "image/png"
         },
         {
